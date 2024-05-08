@@ -1,0 +1,135 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+} 
+.main_body{
+    background-color: yellow;
+}
+.h22{
+    text-align: center;
+    font-size: 39px;
+    font-weight: bolder;
+    margin-bottom: 80px;
+    /* margin-top: 100px; */
+}
+.cc1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    margin: 40px;
+}
+.ol1{
+    margin-left: 400px}
+
+
+.moon{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.l1d1,.l1d2,.l1d3{
+    background-color: teal;
+    animation-name: savi;
+    animation-duration: 4s;
+    /* transform: skewx(20deg); */
+    animation-iteration-count: infinite;
+}
+@keyframes savi{
+    0%{
+        transform: skewX(30deg);
+    }
+    50%{
+        transform: skewx(-30deg);
+    }
+    100%{
+        transform: skewX(30deg);
+    }
+}
+@keyframes savi1{
+    0%{
+        transform: skewy(30deg);
+    }
+    50%{
+        transform: skewy(-30deg);
+    }
+    100%{
+        transform: skewy(30deg);
+    }
+}
+@keyframes savi2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.l2d1,.l2d2,.l2d3{
+    background-color: gray;
+    animation-name: savi1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+
+}
+.l3d1,.l3d2,.l3d3{
+    background-color: teal;
+    animation-name: savi2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.l4d1{
+    background-color: gray;
+    animation-name: savi3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes savi3{
+    0%{
+        transform: scaleY(1.0);
+
+    }
+    50%{
+        transform: scaleY(0.60);
+    }
+    100%{
+        transform: scaleY(1.);
+    }
+}
+.l4d2{
+    background-color:gold;
+    animation-name: savi4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes savi4{
+    0%{
+        transform: scaleX(1.0);
+
+    }
+    50%{
+        transform: scaleX(0.60);
+    }
+    100%{
+        transform: scaleX(1.);
+    }
+}
+
+.l4d3{
+    background-color:rgb(22, 206, 34);
+    animation-name:savi5;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes savi5{
+    0%{
+        transform: rotate(0deg);
+
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

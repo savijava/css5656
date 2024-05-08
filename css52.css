@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+}
+.main1{
+    background-image:linear-gradient(to right,rgb(214, 150, 31),white 40%,green)
+}
+.hid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    gap: 10px;
+    top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.hpy{
+    background-color: rgb(214,150,31);
+}
+.ind{
+    background-color: white;
+}
+.day1{
+    background-color: green;
+}
+.car1{
+    position: relative;
+    top: -180px;
+    bottom: 200px;
+    left: 700px;
+}
+.wheel1{
+    position: relative;
+    top: -180px;
+    left: 464px;
+    bottom: 200px;
+    animation-name: wheel11;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel11{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+.wheel2{
+    position: relative;
+    top: -180px;
+    left: 565px;
+    bottom: 200px;
+    animation-name: wheel11;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.sun1{
+    position: relative;
+    top:-500px;
+    animation-name: sun11;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes sun11{
+    0%{
+        left: 850px;
+    }
+    100%{
+        left: -700px;
+    }
+}
+.flag1{
+    position: relative;
+    top: -220px;
+    left: 430px;
+
+
+
+}
+.flag2{
+    position: relative;
+    top: -220px;
+    left: 280px;
+    transform: rotateY(180deg);
+}
+.m3{
+    position: relative;
+    animation-name: road1;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    top: -35px;
+    /* top: -300px; */
+}
+
+@keyframes road1{
+    0%{
+        right: 0%;
+
+    }
+    100%{
+        right: 100%;
+    }
+}

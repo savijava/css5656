@@ -1,0 +1,68 @@
+.main_div{
+    background-color: yellow;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.ol1{
+    margin-left: 300px;
+    margin-top: 110px;
+}
+.l1d1,.l1d2,.l1d3,.l1d4,.l1d5,.l1d6{
+    height: 120px;
+    width: 120px;
+    border: 1px solid;
+    margin-left: 60px;
+    margin-top: 70px;
+    background-color: green;
+    transition: width 2s,height 2s;
+}
+.l1d3:hover{
+    
+    width: 240px;
+    background-color: honeydew;
+    
+}
+.l1d2:hover{
+    width: 240px;
+    height: 300px;
+}
+.l1d1:hover{
+    width: 240px;
+    background-color: khaki;
+    
+
+}
+.l1d3:hover{
+    
+    width: 240px;
+    background-color: honeydew;
+    
+}
+.l1d4:hover{
+    
+    width: 70%;
+}
+.lid4{
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-property: width;
+    /* transition-behavior: width  ; */
+}
+.l1d5:hover{
+    border-radius: 50%;
+    transform: scalex(0.5);
+
+
+}
+.l1d5{
+    transition:3s;
+}
+.l1d6:hover{
+    margin-left: 500px;
+}
+.l1d6{
+    transition: 3s;
+}
